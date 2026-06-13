@@ -1,0 +1,27 @@
+{
+    "general_settings":{
+        "input_rosbag":"/home/path/to/rosbag/example.bag",
+        "lidar_topic":"/topic_points",
+        "topic_length":22,
+        "lidar_only":false,
+        "imu_topic":"/imu"
+    },
+    "generate_pointcloud":{
+        "spoofer_x": 0.0,
+        "spoofer_y": 0.0,
+        "horizontal_resolution":0.20,
+        "vertical_lines":32,
+        "spoofing_rate":0.35,
+        "distance_threshold": 15.0,
+        "spoofing_angle_range": 80.0
+    },
+    "spoofed_rosbag_params":{
+        "input_dir": "pcd_output/spoofed",
+        "output_rosbag":"/home/path/to/rosbag/example_spoofed.bag"
+    },
+    "mitigate_params":{
+        "output_rosbag": "/home/path/to/rosbag/example_mitigated.bag",
+        "n_subset":24,
+        "PCA_distance_threshold":2.0
+    }
+}
