@@ -17,7 +17,7 @@ ROS Noetic (Install guide is here) (ROS2 imprementの追加予定)
 Python環境, ROS環境の構築方法は省略.
 
 ```bash
-git clone https://github.com/ngtroku/No_extrasensor_preknowledge.git
+git clone https://github.com/ngtroku/no_extra_def.git
 cd No_extrasensor_preknowledge
 pip install -r requirements.txt
 ```
