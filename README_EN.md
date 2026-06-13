@@ -15,7 +15,7 @@ An extra-sensor-free and prior-agnostic defense method that detects and mitigate
 ## Installation 
 ```bash 
 # Clone the repository
-git clone https://github.com/ngtroku/No_extrasensor_preknowledge.git(https://github.com/ngtroku/No_extrasensor_preknowledge.git) 
+git clone https://github.com/ngtroku/No_extrasensor_preknowledge.git(https://github.com/ngtroku/no_extra_def.git) 
 cd No_extrasensor_preknowledge 
 # Install required Python packages 
 pip install -r requirements.txt
