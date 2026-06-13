@@ -1,5 +1,5 @@
 # Overview
-An extra-sensor-free and prior-agnostic defense method that detects and mitigates point cloud tampering caused by LiDAR spoofing using only point cloud spatial information and scan matching-based ego-motion estimation. Against random noise injection attacks, this method suppresses the absolute trajectory error (ATE) of LiDAR SLAM by **up to 32% in simulation** and **20% in real-world environments**. This work is presented at the Institute of Electronics, Information and Communication Engineers (IEICE) Society Conference (2026). 
+An extra-sensor-free and prior-agnostic defense method that detects and mitigates point cloud tampering caused by LiDAR spoofing using only point cloud spatial information and scan matching-based ego-motion estimation. Against random noise injection attacks, this method suppresses the absolute trajectory error (ATE) of LiDAR SLAM by **up to 32% in simulation** and **20% in real-world environments**. This work is presented at the **Institute of Electronics, Information and Communication Engineers (IEICE) Society Conference** (2026). 
 ![Pipeline](images/git_header_fig.png)
 
 # Prerequisites & Environment 
